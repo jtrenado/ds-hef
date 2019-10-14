@@ -1,0 +1,64 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>es.esperanto</groupId>
+	<artifactId>ds-hef</artifactId>
+	<version>0.0.1</version>
+
+
+	<repositories>
+
+		<repository>
+			<id>clojars</id>
+			<url>https://clojars.org/repo/</url>
+		</repository>
+
+		<repository>
+			<id>osgeo</id>
+			<url>https://download.osgeo.org/webdav/geotools</url>
+		</repository>
+
+
+		<repository>
+			<id>openkm</id>
+			<url>http://maven.openkm.com/</url>
+		</repository>
+	</repositories>
+
+	<dependencies>
+		<dependency>
+			<groupId>org.dspace</groupId>
+			<artifactId>dspace-api</artifactId>
+			<version>6.2</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.jpedal</groupId>
+			<artifactId>jpedal-lgpl</artifactId>
+			<version>4.74b27</version>
+		</dependency>
+
+		<dependency>
+			<groupId>nl.siegmann.epublib</groupId>
+			<artifactId>epublib-core</artifactId>
+			<version>3.1</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.jsoup</groupId>
+			<artifactId>jsoup</artifactId>
+			<version>1.12.1</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.bytedeco</groupId>
+			<artifactId>javacv</artifactId>
+			<version>1.5.1</version>
+		</dependency>
+
+
+
+
+
+	</dependencies>
+</project>
